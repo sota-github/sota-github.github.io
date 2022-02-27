@@ -44,6 +44,8 @@
     <option value="12">12</option>
     </select>　月
   </p>
+  const select = document.querySelector('select');
+  select.addEventListener('change', setWeather);
   
 <!--   <p>
     <label for="start_time">始業時間:</label>
@@ -115,9 +117,9 @@
               </tr>
             </table>
           </div>
-        }
       }
     }
+  }
 
 
 </body>
